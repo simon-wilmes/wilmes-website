@@ -1,0 +1,27 @@
+.hidden {
+	display:none !important;
+}
+@keyframes fadeLoop {
+	0% {
+	opacity: 0;
+	}
+	50% {
+	opacity: 1;
+	}
+	100% {
+	opacity: 0;
+	}
+}
+
+#typewriter-block {
+    #typewriter-field {
+        font-size:4rem;
+        font-family: monospace;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .blinker {
+        animation: fadeLoop 1s ease-in-out infinite;
+    }
+}
